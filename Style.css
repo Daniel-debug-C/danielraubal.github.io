@@ -1,0 +1,136 @@
+html body{
+  background-color: #2a2440;
+}
+
+
+.objectCenter {
+    display: flex; /* Make the div a flex container */
+    justify-content: center; /* Center the div horizontally within its parent element */
+  }
+
+h1,h3
+{
+    color: #5c95fa;
+}
+
+.chat {
+  position: sticky;
+  bottom: 10px;
+  right: 10px;
+  border: 0;
+  float: right;
+}
+
+.block{
+  display: inline-block; 
+  background-color: #140f27;
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+pre{
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.HeaderDiv{
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  left:25px;
+}
+.HeaderIco
+{
+  border-radius: 50%;opacity:0.35;
+}
+
+marquee img{
+  border-radius: 50%;
+
+}
+
+
+.ruka {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 1000px;
+  }
+}
+
+
+.block p{
+  padding: 10px;
+}
+
+li a{
+  color:#5c95fa;
+}
+
+p{
+  color:#5c95fa;
+}
+
+li a:hover{
+  color:white;
+}
+
+.round
+{
+  border-radius: 50%;
+  border: black 2px solid;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  /*text-align: center;*/
+}
+
+
+/*
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+*/
+
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  /*margin-top: calc(100vh + var(--offset));*/
+  
+  padding: 10px;
+  
+}
+
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
